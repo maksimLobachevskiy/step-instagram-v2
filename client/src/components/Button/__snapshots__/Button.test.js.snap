@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Button components render correctly text component 1`] = `
+<button
+  className=""
+  onClick={[MockFunction]}
+  style={
+    Object {
+      "background": "",
+    }
+  }
+>
+  
+</button>
+`;

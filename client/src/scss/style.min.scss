@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+@import "sections/menu";
+@import "sections/tape";
+@import "sections/posts";
+@import "sections/modal";
+@import "sections/comment";
+@import "sections/button";
+@import "sections/loader";
+@import "all-media";

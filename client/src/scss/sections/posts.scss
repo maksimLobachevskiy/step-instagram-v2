@@ -1,0 +1,74 @@
+.users-posts {
+  max-width: 850px;
+}
+
+.post {
+  margin-bottom: 24px;
+  max-width: 650px;
+
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  & .user {
+    margin: 12px 12px;
+  }
+  & > img {
+    max-width: 100%;
+
+    object-fit: cover;
+  }
+  &__name {
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  &__descr {
+    padding: 0 20px;
+    margin: 0 0 20px 0;
+    & button {
+      color: #8e8e8e;
+      cursor: pointer;
+      background: none;
+      border: none;
+    }
+  }
+  strong {
+    font-weight: 700;
+  }
+}
+
+.palette {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.palette img {
+  width: calc(100% / 3 - 60px);
+  margin: 10px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 4px;
+}
+
+.likes {
+  padding: 0 20px;
+  margin-top: 4px;
+}
+
+.svgContainer {
+  display: flex;
+  align-items: center;
+}
+
+strong {
+  font-weight: 700;
+}

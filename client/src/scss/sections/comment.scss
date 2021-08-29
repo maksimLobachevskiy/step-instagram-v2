@@ -1,0 +1,44 @@
+.wrapperComments{
+  padding: 20px;
+  &__button{
+    color: #8e8e8e;
+    cursor: pointer;
+    background: none;
+    border: none;
+  } & form{
+      display: flex;
+      & button{
+        text-decoration: none;
+        background: none;
+        border: none;
+        font-size: 40px;
+        font-weight: 600;
+        color: grey;
+        cursor: pointer;
+      }
+    }
+}
+.comment{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__wrapper{
+    display: flex;
+    margin: 10px 0;
+    & img{
+      width: 25px;
+      height: 25px;
+      margin-right: 5px;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+  }
+  &__username{
+    font-weight: bold;
+    padding-right: 20px;
+  }
+  &__delete{
+    cursor: pointer;
+  }
+
+}

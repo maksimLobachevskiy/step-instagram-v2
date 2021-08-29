@@ -1,0 +1,108 @@
+.containerP {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.modalP {
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 40px;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &__wrapper {
+    width: 70%;
+    position: relative;
+  }
+  &__content {
+    display: flex;
+    max-width: 835px;
+    max-height: 600px;
+    background: white;
+    margin: auto;
+  }
+}
+
+.modalImg {
+  width: 60%;
+  background: url("http://localhost:3000/img/Posts/hero-pic-1170px.png") center /
+    cover;
+}
+
+.modalText {
+  width: 40%;
+
+  & img {
+    width: 50px;
+    height: 50px;
+  }
+  &__user {
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+  }
+  &__text {
+    height: 300px;
+  }
+  &__descr {
+    padding-top: 10px;
+  }
+  &__block {
+    line-height: 1.5;
+    display: flex;
+    align-items: self-end;
+    height: calc(100% - 40px);
+    overflow-x: hidden;
+  }
+  &__wrapper {
+    display: none;
+  }
+}
+
+.buttonModal {
+  top: 50%;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+
+  border: none;
+
+  &--SliderPrev {
+    left: -50px;
+  }
+
+  &--SliderNext {
+    right: -50px;
+  }
+}
+
+.CloseButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: white;
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.comment-form {
+  padding: 10px;
+  display: flex;
+  & button {
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 40px;
+    font-weight: 600;
+    color: grey;
+    cursor: pointer;
+  }
+}
